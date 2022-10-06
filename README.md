@@ -13,6 +13,9 @@
 ## Live Demo (if available)
 [Live Demo Link]()
 
+## Features
+[Video](https://www.loom.com/share/ca8b46062cee47d3bb3e6894ed988a0e)
+
 ## Getting Started
 
 To get a local copy up and running it, follow these simple steps.
