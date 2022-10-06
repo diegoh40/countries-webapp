@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## country-statistics
 
-## Available Scripts
+> This React capstone project is about building a mobile webapp to check a list of metrics (numerical values) that I have created making use of React and Redux. I have selected an API that provides numerical data on a topic that I like and built the webapp around it.
 
-In the project directory, you can run:
+## Built With
 
-### `npm start`
+- React & Redux
+- CSS
+- Git Workflow, Git, GitHub
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Live Demo (if available)
+[Live Demo Link]()
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+To get a local copy up and running it, follow these simple steps.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Prerequisites
 
-### `npm run build`
+- Internet Service.
+- Basic Knowledge about Git and Github.
+- VSCode.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Setup
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Create an empty folder in your computer to store the clone.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Copy the following link and paste it into your VSCode or your terminal:
 
-### `npm run eject`
+> https://github.com/diegoh40/country-statistics.git
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. Store it in the file you created before.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. Create a new branch for working and make changes to adapt it according to your requirements.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Install
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- To install linters please open the ***.github/workflows*** then get into ***linters.yml*** and check the instructions and commands.
+- To install the libraries, please use the cmd: 
+> npm install
 
-## Learn More
+### Usage
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+For educational purpose only, use it as a guideline.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+👤 **Author1**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+👤 **Diego Hernández**
 
-### Analyzing the Bundle Size
+- GitHub: [@diehoh40](https://github.com/diegoh40)
+- Twitter: [@Diegoart80](https://twitter.com/Diegoart80)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/diegoarturoh/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 🤝 Contributing
 
-### Making a Progressive Web App
+Contributions, issues, and feature requests are welcome!
+Feel free to check the [issues page](../../issues/).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Show your support
 
-### Advanced Configuration
+Give a ⭐️ if you like this project!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Acknowledgments
 
-### Deployment
+- Inspiration Ballhead App (Free PSDs) by Nelson Sakwa design
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 📝 License
 
-### `npm run build` fails to minify
+This project is [MIT](./MIT.md) licensed.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
