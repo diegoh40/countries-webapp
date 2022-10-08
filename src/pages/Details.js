@@ -26,7 +26,7 @@ const Info = () => {
         <tr>
           <th>Area</th>
           <th>Latitude°</th>
-          <th>Borders</th>
+
         </tr>
         <tr>
           <td>
@@ -35,7 +35,7 @@ const Info = () => {
             Kilometer
           </td>
           <td>{country[0].latlng}</td>
-          <td>{country[0].borders.join(',')}</td>
+
         </tr>
 
       </table>

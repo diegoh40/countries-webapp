@@ -1,37 +1,45 @@
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { Link } from 'react-router-dom';
-import { showCountries, selectCountry } from '../redux/Home/home';
+import { showCountries, selectCountry, showCountriesAll } from '../redux/Home/home';
 
 const Countries = () => {
   const countries = useSelector((state) => state.countries);
   const dispatch = useDispatch();
 
+  useEffect(() => {
+    dispatch(showCountriesAll());
+  }, []);
+
   const handleContinents = (event) => {
     dispatch(showCountries(event.target.value));
   };
-  useEffect(() => {
-    window.addEventListener('click', handleContinents);
-    return () => {
-      window.removeEventListener('click', handleContinents);
-    };
-  }, []);
 
   const handleCountry = (id) => {
     dispatch(selectCountry(id));
   };
 
+  const worldContinents = [
+    { name: 'Africa', id: 1 },
+    { name: 'Asia', id: 2 },
+    { name: 'Europe', id: 3 },
+    { name: 'South America', id: 4 },
+    { name: 'North America', id: 5 },
+  ];
+
   return (
     <div>
-      <form>
-        <select>
-          <option onChange={handleContinents} value="Africa">Africa</option>
-          <option onChange={handleContinents} value="Asia">Asia</option>
-          <option onChange={handleContinents} value="South America">South America</option>
-          <option onChange={handleContinents} value="North America">North America</option>
-          <option onChange={handleContinents} value="Europe">Europe</option>
-        </select>
-      </form>
+
+      <div className="select">
+        <h3>Select a Continent</h3>
+        <div className="btn">
+          {worldContinents.map((el) => (
+            <button key={el.id} onClick={handleContinents} value={el.name} type="button" aria-hidden="true">
+              {el.name}
+            </button>
+          ))}
+        </div>
+      </div>
 
       <div className="container">
         {countries.map((el) => (
