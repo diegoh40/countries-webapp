@@ -110,8 +110,27 @@ form {
   color: white;
 }
 
-select {
-  width: 200px;
-  font-size: 22px;
+.select {
+  display: flex;
+  flex-direction: column;
   border-style: initial;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.btn {
+  display: flex;
+}
+
+.btn button {
+  color: antiquewhite;
+  width: 60px;
+  height: auto;
+  font-size: 12px;
+  margin: 5px;
+  background-color: #6500c9;
+}
+
+.btn button :hover {
+  background-color: #953af0;
 }
