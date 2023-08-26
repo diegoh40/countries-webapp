@@ -10,8 +10,9 @@ function App() {
   return (
     <Provider store={store}>
       <BrowserRouter>
-        <div className="cont">
+        <div className="p-3 mb-2 bg-danger">
           <Navbar />
+
           <hr />
           <Switch>
             <Route exact path="/">

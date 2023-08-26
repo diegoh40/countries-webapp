@@ -24,7 +24,7 @@ function Navbar() {
   ];
 
   return (
-    <nav>
+    <nav className="bg-danger">
       <ul className="navBar">
         {links.map((link) => (
           <li key={link.id}>

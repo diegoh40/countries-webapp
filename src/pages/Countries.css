@@ -1,0 +1,16 @@
+.bg-1 {
+    background-color: rgb(195, 0, 255);
+   
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: auto auto;
+    /* background-color: rgb(195, 0, 255); */
+    padding: 10px 0 10px 0;
+  }
+
+  .bg-success {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-success-rgb), var(--bs-bg-opacity)) !important;
+  }
